@@ -3,7 +3,7 @@
 - [x] React-leaflet v4 support
 - [x] Typescript support
 
-React-leaflet-cluster is a plugin for react-leaflet. A wrapper component of Leaflet.markercluster. Ready to be integrated into your React.js application to create beautifully animated Marker Clustering functionality.
+Next-leaflet-cluster is a plugin for react-leaflet with nextjs. A wrapper component of Leaflet.markercluster. Ready to be integrated into your React.js application to create beautifully animated Marker Clustering functionality.
 
 ![](showcase.gif)
 
@@ -33,10 +33,12 @@ https://akursat.gitbook.io/marker-cluster/api
 #### Usage
 
 ```tsx
-import MarkerClusterGroup from 'react-leaflet-cluster'
+import MarkerClusterGroup from 'next-leaflet-cluster'
 import {MapContainer, Marker } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import {addressPoints} from './realworld'
+import 'next-leaflet-cluster/assets/MarkerCluster.css'
+import 'next-leaflet-cluster/assets/MarkerCluster.Default.css'
 
 const Demo = () => {
   return (
